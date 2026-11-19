@@ -259,14 +259,14 @@ MotionBricks'e yeni misiniz? **[Rehberli eğitimle](docs/REHBERLI-EGITIM.md)** b
 
 MotionBricks, animasyon, robotik ve fiziksel yapay zeka için insansı hareketi mümkün kılmaya yönelik daha geniş bir çalışmanın parçasıdır. İlgili projeler:
 
-- [Kimodo](https://github.com/nv-tlabs/kimodo): denetlenebilir çevrim dışı hareket hazırlamada uzmanlaşmış insan hareketi üretim modeli.
-- [ARDY](https://github.com/nv-tlabs/ardy): Kimodo üzerine kurulur ve etkileşimli uygulamalar için gerçek zamanlı, denetlenebilir hareket üretimi sağlar.
-- [SOMA Body Model](https://github.com/NVlabs/SOMA-X): birleşik, parametrik bir insan vücudu modeli.
-- [BONES-SEED Dataset](https://huggingface.co/datasets/bones-studio/seed): SOMA ve G1 biçiminde insanlar ve insansılar için büyük bir hareket yakalama veri seti.
-- [ProtoMotions](https://github.com/NVlabs/ProtoMotions): fiziksel olarak benzetilen insanları ve insansıları eğitmek için simülasyon ve öğrenme çatısı.
-- [SOMA Retargeter](https://github.com/NVIDIA/soma-retargeter): SOMA hareketini Unitree G1 gibi insansı robotlara yeniden hedefler.
-- [GEM](https://github.com/NVlabs/GEM-X): videodan insan hareketi yeniden kurma.
-- [GEAR SONIC](https://github.com/NVlabs/GR00T-WholeBodyControl): fiziksel robotlar için insansı davranış temel modeli.
+- [Kimodo](https://github.com/nv-tlabs/kimodo): denetlenebilir çevrim dışı hareket hazırlamada uzmanlaşmış insan hareketi üretim modeli. Türkçe: [repo](https://github.com/Unitree-Turkiye/nvidia-kimodo-turkce) · [rehber](https://www.robotlar.org/tr/rehber/nvidia-kimodo-hareket-uretimi-rehberi)
+- [ARDY](https://github.com/nv-tlabs/ardy): Kimodo üzerine kurulur ve etkileşimli uygulamalar için gerçek zamanlı, denetlenebilir hareket üretimi sağlar. Türkçe: [repo](https://github.com/Unitree-Turkiye/nvidia-ardy-turkce) · [rehber](https://www.robotlar.org/tr/rehber/nvidia-ardy-gercek-zamanli-hareket-rehberi)
+- [SOMA Body Model](https://github.com/NVlabs/SOMA-X): birleşik, parametrik bir insan vücudu modeli. Türkçe: [repo](https://github.com/Unitree-Turkiye/nvidia-soma-govde-modeli-turkce) · [rehber](https://www.robotlar.org/tr/rehber/nvidia-soma-govde-modeli-rehberi)
+- [BONES-SEED Dataset](https://huggingface.co/datasets/bones-studio/seed): SOMA ve G1 biçiminde insanlar ve insansılar için büyük bir hareket yakalama veri seti. Türkçe: [repo](https://github.com/Unitree-Turkiye/bones-seed-hareket-veri-seti-turkce) · [rehber](https://www.robotlar.org/tr/rehber/bones-seed-hareket-veri-seti-rehberi)
+- [ProtoMotions](https://github.com/NVlabs/ProtoMotions): fiziksel olarak benzetilen insanları ve insansıları eğitmek için simülasyon ve öğrenme çatısı. Türkçe: [repo](https://github.com/Unitree-Turkiye/nvidia-protomotions-turkce) · [rehber](https://www.robotlar.org/tr/rehber/nvidia-protomotions-insansi-simulasyon-rehberi)
+- [SOMA Retargeter](https://github.com/NVIDIA/soma-retargeter): SOMA hareketini Unitree G1 gibi insansı robotlara yeniden hedefler. Türkçe: [repo](https://github.com/Unitree-Turkiye/unitree-g1-soma-retargeter-turkce) · [rehber](https://www.robotlar.org/tr/rehber/soma-retargeter-unitree-g1-hareket-aktarimi-rehberi)
+- [GEM](https://github.com/NVlabs/GEM-X): videodan insan hareketi yeniden kurma. Türkçe: [repo](https://github.com/Unitree-Turkiye/nvidia-gem-x-turkce) · [rehber](https://www.robotlar.org/tr/rehber/nvidia-gem-x-videodan-hareket-rehberi)
+- [GEAR SONIC](https://github.com/NVlabs/GR00T-WholeBodyControl): fiziksel robotlar için insansı davranış temel modeli. Türkçe: [repo](https://github.com/Unitree-Turkiye/unitree-g1-gear-sonic-turkce) · [rehber](https://www.robotlar.org/tr/rehber/gear-sonic-unitree-g1-tum-govde-kontrol-rehberi)
 
 ---
 
@@ -297,6 +297,24 @@ MotionBricks'in G1 modeli (`MotionBricks-G1-RP-v1`), Unitree G1'in 29 eklem aç�
 **Türkçe GitHub depoları:** [G1](https://github.com/Unitree-Turkiye/unitree-g1-turkce) · [SDK2](https://github.com/Unitree-Turkiye/unitree-sdk2-turkce) · [XR Teleoperasyon](https://github.com/Unitree-Turkiye/unitree-teleoperasyon-turkce) · [G1 dokunsal algılama giysisi](https://github.com/Unitree-Turkiye/unitree-g1-dokunsal-giysi-turkce)
 
 Üniversite ve kurumlar için platform, eğitim ve Türkçe geliştirici desteği konusunda [kurumsal teklif formundan](https://www.robotlar.org/tr/fiyat/unitree-kurumsal-teklif-al) bize ulaşabilirsiniz.
+
+## 🧬 NVIDIA İnsansı Hareket Ailesi (Türkçe)
+
+NVIDIA'nın animasyon, robotik ve fiziksel yapay zeka için yayımladığı insansı hareket projeleri birbirini tamamlar: SOMA ortak gövde modelini, BONES-SEED veriyi, GEM videodan hareketi, Kimodo ve ARDY hareket üretimini, MotionBricks gerçek zamanlı hareket planlamayı, SOMA Retargeter insan hareketini Unitree G1'e aktarmayı, ProtoMotions fizik tabanlı eğitimi, GEAR SONIC de gerçek robotta tüm gövde kontrolünü üstlenir. Akışın bütününü [merkez rehberde](https://www.robotlar.org/tr/rehber/nvidia-insansi-hareket-ekosistemi-unitree-g1-rehberi) anlatıyoruz.
+
+| Proje | Ne yapar | Türkçe repo | Türkçe rehber | Resmi depo |
+|---|---|---|---|---|
+| MotionBricks | Bağlam ve hedef pozlar arasında gerçek zamanlı hareket üretir, Unitree G1 modeliyle gelir | [unitree-g1-motionbricks-turkce](https://github.com/Unitree-Turkiye/unitree-g1-motionbricks-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/unitree-g1-motionbricks-rehberi) | [NVlabs/motionbricks](https://github.com/NVlabs/motionbricks) |
+| Kimodo | Denetlenebilir çevrim dışı insan hareketi üretimi | [nvidia-kimodo-turkce](https://github.com/Unitree-Turkiye/nvidia-kimodo-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/nvidia-kimodo-hareket-uretimi-rehberi) | [nv-tlabs/kimodo](https://github.com/nv-tlabs/kimodo) |
+| ARDY | Kimodo üzerine gerçek zamanlı, etkileşimli hareket üretimi | [nvidia-ardy-turkce](https://github.com/Unitree-Turkiye/nvidia-ardy-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/nvidia-ardy-gercek-zamanli-hareket-rehberi) | [nv-tlabs/ardy](https://github.com/nv-tlabs/ardy) |
+| SOMA Body Model | Birleşik, parametrik insan gövde modeli | [nvidia-soma-govde-modeli-turkce](https://github.com/Unitree-Turkiye/nvidia-soma-govde-modeli-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/nvidia-soma-govde-modeli-rehberi) | [NVlabs/SOMA-X](https://github.com/NVlabs/SOMA-X) |
+| BONES-SEED | SOMA ve G1 biçiminde büyük hareket yakalama veri seti | [bones-seed-hareket-veri-seti-turkce](https://github.com/Unitree-Turkiye/bones-seed-hareket-veri-seti-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/bones-seed-hareket-veri-seti-rehberi) | [bones-studio/seed](https://huggingface.co/datasets/bones-studio/seed) |
+| ProtoMotions | Benzetilen insan ve insansıları eğitmek için GPU hızlandırmalı simülasyon çatısı | [nvidia-protomotions-turkce](https://github.com/Unitree-Turkiye/nvidia-protomotions-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/nvidia-protomotions-insansi-simulasyon-rehberi) | [NVlabs/ProtoMotions](https://github.com/NVlabs/ProtoMotions) |
+| SOMA Retargeter | SOMA hareketini Unitree G1 gibi insansı robotlara aktarır | [unitree-g1-soma-retargeter-turkce](https://github.com/Unitree-Turkiye/unitree-g1-soma-retargeter-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/soma-retargeter-unitree-g1-hareket-aktarimi-rehberi) | [NVIDIA/soma-retargeter](https://github.com/NVIDIA/soma-retargeter) |
+| GEM | Görüntü ve videodan tüm gövde ve el hareketini kestirir | [nvidia-gem-x-turkce](https://github.com/Unitree-Turkiye/nvidia-gem-x-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/nvidia-gem-x-videodan-hareket-rehberi) | [NVlabs/GEM-X](https://github.com/NVlabs/GEM-X) |
+| GEAR SONIC | Fiziksel insansı robotlar için davranış temel modeli ve tüm gövde kontrolü | [unitree-g1-gear-sonic-turkce](https://github.com/Unitree-Turkiye/unitree-g1-gear-sonic-turkce) | [Rehber](https://www.robotlar.org/tr/rehber/gear-sonic-unitree-g1-tum-govde-kontrol-rehberi) | [NVlabs/GR00T-WholeBodyControl](https://github.com/NVlabs/GR00T-WholeBodyControl) |
+
+İlgili Türkçe kaynaklar: [Unitree G1 + Isaac GR00T](https://github.com/Unitree-Turkiye/unitree-g1-isaac-groot-turkce) · [XR teleoperasyon](https://github.com/Unitree-Turkiye/unitree-teleoperasyon-turkce) · [LeRobot](https://github.com/Unitree-Turkiye/unitree-lerobot-turkce) · [RL Gym](https://github.com/Unitree-Turkiye/unitree-rl-gym-turkce) · [MuJoCo](https://github.com/Unitree-Turkiye/unitree-mujoco-turkce)
 
 ## 🤖 Unitree Ürün Ailesi (Türkiye)
 
@@ -333,6 +351,7 @@ Robotlar.org, Unitree Robotics'in Türkiye resmi distribütörüdür. Aşağıda
 
 ## 📖 Türkçe Rehberler
 
+- [NVIDIA insansı hareket ekosistemi ve Unitree G1 (merkez rehber)](https://www.robotlar.org/tr/rehber/nvidia-insansi-hareket-ekosistemi-unitree-g1-rehberi)
 - [Unitree G1 MotionBricks rehberi](https://www.robotlar.org/tr/rehber/unitree-g1-motionbricks-rehberi)
 - [Unitree G1 Isaac GR00T rehberi](https://www.robotlar.org/tr/rehber/unitree-g1-isaac-gr00t-rehberi)
 - [Unitree G1 dokunsal algılama giysisi rehberi](https://www.robotlar.org/tr/rehber/unitree-g1-dokunsal-giysi-rehberi)
