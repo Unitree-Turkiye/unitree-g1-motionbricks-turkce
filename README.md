@@ -270,6 +270,16 @@ MotionBricks, animasyon, robotik ve fiziksel yapay zeka için insansı hareketi 
 
 ---
 
+## 🎯 Gerçek robotta sonuçlar (NVIDIA)
+
+Bu bölümdeki değerler NVIDIA'nın MotionBricks makalesinden ([arXiv 2604.24833](https://arxiv.org/abs/2604.24833)) aktarıldı.
+
+- **G1 dağıtımı:** Makaleye göre G1 dağıtımında Jetson Orin ve Unitree'nin resmi SDK'sı kullanılıyor. Modeller ONNX ile dışa aktarılır, robotta TensorRT ile yüklenir.
+- **Orin üzerinde:** Çıkarım başına süre 5 ms. Yeniden planlama 10 Hz'de ya da komut değiştiğinde yapılır.
+- **Masaüstünde:** RTX 5090 ile gecikme 2 ms, üretim hızı 15.000 FPS.
+
+Gerçek G1'de tüm gövde kontrolü tarafının sonuçları için [GEAR SONIC Türkçe deposuna](https://github.com/Unitree-Turkiye/unitree-g1-gear-sonic-turkce) ve [GEAR SONIC rehberimize](https://www.robotlar.org/tr/rehber/gear-sonic-unitree-g1-tum-govde-kontrol-rehberi) geçebilirsiniz.
+
 ## 🚀 Unitree G1 ile MotionBricks: Türkiye'de nereden başlanır
 
 MotionBricks'in G1 modeli (`MotionBricks-G1-RP-v1`), Unitree G1'in 29 eklem açısı ve yüzen kökten (floating root) oluşan düzeniyle çalışır. Model kartına göre çıktı, robot dinamiği altında bir kontrolcünün izleyeceği kinematik referans harekettir. Bu yüzden MotionBricks, G1 üzerinde animasyon, simülasyon ve kontrol deneyleri için bir hareket kaynağı olarak konumlanır. Fiziksel robota geçişte izleme kontrolcüsü, limit uygulaması ve güvenlik doğrulaması sizin iş akışınızın parçasıdır.
