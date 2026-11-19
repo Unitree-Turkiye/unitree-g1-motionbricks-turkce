@@ -1,0 +1,20 @@
+Bu depo NVlabs/motionbricks belgelerinin Türkçe çevirisini içerir.
+This repository contains a Turkish translation of the NVlabs/motionbricks documentation.
+
+Kaynak / Source: https://github.com/NVlabs/motionbricks
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+- Belge metni / Documentation text: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+  https://creativecommons.org/licenses/by/4.0/
+  Değişiklik / Changes: Türkçeye çevrildi, Türkiye bağlantıları eklendi
+  (translated into Turkish, Turkey-specific links added).
+  Çeviri / Translation: Copyright (c) 2026 EP Robot Teknoloji (Robotlar.org), CC-BY-4.0.
+- Belgelerdeki kod örnekleri / Code snippets in the docs: Apache License 2.0
+  https://github.com/NVlabs/motionbricks/blob/main/LICENSE
+- Modeller / Models: NVIDIA Open Model Agreement
+  https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/
+- Örnek hareketler / Sample motions: NVIDIA Sample Data Evaluation License
+  https://github.com/NVlabs/motionbricks/blob/main/assets/motions/LICENSE.txt
+
+Bu depoda kaynak kod, model, hareket verisi ya da medya dosyası bulunmaz; görseller orijinal depodan gösterilir.
+This repository holds no source code, models, motion data or media files; images are served from the original repository.
